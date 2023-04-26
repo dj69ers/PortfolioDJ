@@ -1,0 +1,13 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*<div class="bg-primary pt-3 pb-3 border border-dark col-sm-2 col-m-12">
+        Responsive
+      </div>
+      <div class="bg-secondary pt-3 pb-3 border border-dark col-sm-10 col-m-12">
+        Responsive
+      </div>*/

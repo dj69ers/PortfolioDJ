@@ -1,0 +1,155 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	list-style-type: none;
+	margin-bottom: 1rem;
+	position: sticky;
+	top: 10px;
+	background-color: white;
+	padding: 1rem;
+}
+.nav {
+	display: inline;
+	margin-left: 5%;
+}
+
+.right-nav {
+	margin-left: 40%;
+}
+
+.nav-logo {
+	float: left;
+	list-style-type: none;
+}
+
+.right-nav, .nav-logo {
+	position: sticky;
+	top: 10px;
+}
+
+.tuitt-button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b ;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+	margin-left: 0rem; 
+	border: 0,
+	}
+
+#bg-image {
+	min-height: 50vh;
+	background-color: gray;
+	background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*image being centered horizontally, alignment with top of the element vertically*/
+	background-position: center ;
+	background-attachment: scroll;
+	color: white;
+	text-align: right;}
+.front-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 50vh;
+}
+
+.container {
+	margin-left: 50%;
+	margin-right: 10%;
+}
+
+.title, .title-2 {
+	font-family: 'Zilla Slab';
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	margin-left: 35%;
+	font-weight: lighter;
+}
+.apply-button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b ;
+	border-radius: 25px;
+	border: 0;
+	font-size: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	margin-right: 1rem;
+	margin-top: 1rem;
+
+}
+.title-2 {
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.intro-description {
+	margin-left: 12rem;
+	margin-right: 12rem;
+	font-weight: normal;
+}
+
+.pre-footer {
+	background-color: #f7fbfb;
+	margin-top: 4rem;
+	padding: 5rem;
+	min-height: 50%;
+}
+
+.title-3 {
+	font-family: 'Zilla Slab';
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.prefooter-description {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-size: 1rem;
+}
+
+.book-button {
+	margin-left: 43%;
+	color: white;
+	font-weight: bold;
+	background-color: #336589;
+	border-radius: 25px;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-top: 1rem;
+	border: 0;
+}
+footer {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+span {
+	margin-right: 1rem;
+
+}
